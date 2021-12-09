@@ -26,12 +26,12 @@ dependencies {
             "org.aspectj:aspectjweaver:1.9.7",
             "com.codeborne:selenide:$selenideVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
+            "org.aeonbits.owner:owner:1.0.12",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly(
             //"org.slf4j:slf4j-tests.demoqa.simple:1.7.32",
             "org.junit.jupiter:junit-jupiter-engine:$junitVersion")
 }
-
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
@@ -45,5 +45,11 @@ tasks.withType(Test) {
             events "started", "skipped", "failed", "standard_error", "standard_out"
             exceptionFormat "short"
         }
+    }
+}
+
+task properties_for_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags "properties"
     }
 }

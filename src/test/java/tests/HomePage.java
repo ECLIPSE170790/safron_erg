@@ -1,14 +1,20 @@
 package tests;
 
-import static com.codeborne.selenide.Selectors.byText;
 import static io.qameta.allure.Allure.step;
+
+import config.CredentialsConfig;
+import org.aeonbits.owner.ConfigFactory;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import tests.TestBase;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
+@Tag("properties")
 public class HomePage extends TestBase{
+
+    public CredentialsConfig credentials =
+            ConfigFactory.create(CredentialsConfig.class);
 
     @Test
     void checkHomePage() {
@@ -49,6 +55,8 @@ public class HomePage extends TestBase{
         step("Checking word 'SmartERG'", () -> {
             $(".jss13",0).shouldHave(text("SmartERG"));
         });
+
+        //добавить вставку номера из credential.properties
     }
 
     @Test
