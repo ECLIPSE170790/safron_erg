@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Nov 27 14:02:15 ALMT 2021","Sat Nov 27 14:02:15 ALMT 2021","51","","tests.properties.OwnerTests","","tests.properties.OwnerTests","readCredentialTest","readCredentialTest()",""

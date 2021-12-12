@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.properties.OwnerTests",
+    "children" : [ {
+      "name" : "readCredentialTest()",
+      "uid" : "5f2682fc717deb36",
+      "parentUid" : "cda9f168a238ad57c6995b88da08abb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638000135184,
+        "stop" : 1638000135235,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cda9f168a238ad57c6995b88da08abb2"
+  } ]
+}

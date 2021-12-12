@@ -1,0 +1,68 @@
+{
+  "uid" : "5f2682fc717deb36",
+  "name" : "readCredentialTest()",
+  "fullName" : "tests.properties.OwnerTests.readCredentialTest",
+  "historyId" : "a50ab2950bc6b8cf0e32d33bef0857de",
+  "time" : {
+    "start" : 1638000135184,
+    "stop" : 1638000135235,
+    "duration" : 51
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:tests.properties.OwnerTests]/[method:readCredentialTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Synok"
+  }, {
+    "name" : "thread",
+    "value" : "7200@Synok.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.properties.OwnerTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.properties.OwnerTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "readCredentialTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.properties.OwnerTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f76e82e6be169d39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637999964647,
+        "stop" : 1637999964773,
+        "duration" : 126
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f2682fc717deb36.json",
+  "parameterValues" : [ ]
+}

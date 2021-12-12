@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Synok",
+    "children" : [ {
+      "name" : "7200@Synok.Test worker(14)",
+      "children" : [ {
+        "name" : "readCredentialTest()",
+        "uid" : "5f2682fc717deb36",
+        "parentUid" : "79c5ed33414c7761c75c7277abe3bd3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638000135184,
+          "stop" : 1638000135235,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79c5ed33414c7761c75c7277abe3bd3a"
+    }, {
+      "name" : "5432@Synok.Test worker(14)",
+      "children" : [ {
+        "name" : "readCredentialTest()",
+        "uid" : "f76e82e6be169d39",
+        "parentUid" : "f16fcf24074297d0729749aa825fe875",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637999964647,
+          "stop" : 1637999964773,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f16fcf24074297d0729749aa825fe875"
+    } ],
+    "uid" : "c058c0148ac79db8f4b580846c876053"
+  } ]
+}

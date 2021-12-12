@@ -1,0 +1,11 @@
+[ {
+  "uid" : "5f2682fc717deb36",
+  "name" : "readCredentialTest()",
+  "time" : {
+    "start" : 1638000135184,
+    "stop" : 1638000135235,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
