@@ -21,10 +21,6 @@ public class HomePage extends TestBase{
         step("Open home page of ERG", () -> {
             open("https://www.erg.kz/ru"); });
 
-        step("Click on cookie", () -> {
-            $("#acceptCookies").click();
-        });
-
         step("Checking word 'Главная'", () -> {
             $(".navigation").shouldHave(text("Главная"));
         });
@@ -59,10 +55,6 @@ public class HomePage extends TestBase{
     void searchBTS() {
         step("Open home page of ERG", () -> {
             open("https://www.erg.kz/ru");
-        });
-
-        step("Click on cookie", () -> {
-            $("#acceptCookies").click();
         });
 
         step("Click Search", () -> {
