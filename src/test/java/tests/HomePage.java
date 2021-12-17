@@ -62,7 +62,7 @@ public class HomePage extends TestBase{
         });
 
         step("Checking results of search", () -> {
-            $(".search__item", 2).shouldHave(text("BTS"));
+            $(".search__item", 3).shouldHave(text("BTS"));
         });
     }
 }
