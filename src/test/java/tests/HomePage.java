@@ -17,9 +17,24 @@ public class HomePage extends TestBase{
             ConfigFactory.create(CredentialsConfig.class);
 
     @Test
+    void clickCookie() {
+        step("Open home page of ERG", () -> {
+            open("https://www.erg.kz/ru"); });
+
+        step("Click on cookie", () -> {
+            $(".acceptCookies").click();
+        });
+    }
+
+
+    @Test
     void checkHomePage() {
         step("Open home page of ERG", () -> {
             open("https://www.erg.kz/ru"); });
+
+        step("Click on cookie", () -> {
+            $(".acceptCookies").click();
+        });
 
         step("Checking word 'Главная'", () -> {
             $(".navigation").shouldHave(text("Главная"));
@@ -30,6 +45,10 @@ public class HomePage extends TestBase{
     void gotToSmartERG() {
         step("Open home page of ERG", () -> {
             open("https://www.erg.kz/ru");
+        });
+
+        step("Click on cookie", () -> {
+            $(".acceptCookies").click();
         });
 
         step("Click SmartERG", () -> {
@@ -51,6 +70,10 @@ public class HomePage extends TestBase{
     void searchBTS() {
         step("Open home page of ERG", () -> {
             open("https://www.erg.kz/ru");
+        });
+
+        step("Click on cookie", () -> {
+            $(".acceptCookies").click();
         });
 
         step("Click Search", () -> {
