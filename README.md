@@ -15,7 +15,7 @@
 * <img src="img/IDEA.png" alt="Idea" width="50">
 * <img src="img/Java.png" alt="Java" width="50">
 * <img src="img/Gradle.png" alt="Gradle" width="50">
-* <img src="img/Selenide.png" alt="Selenide" width="100">
+* <img src="img/Selenide.svg" alt="Selenide" width="100">
 * <img src="img/JUnit.png" alt="JUnit" width="100">
 * <img src="img/Allure.png" alt="Allure" width="50">
 * <img src="img/Selenoid.png" alt="Selenoid" width="50">
