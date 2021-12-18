@@ -12,6 +12,7 @@
 
 ## Используемые инструменты
 
+* <img src="img/IDEA.png" alt="Idea" width="50">
 * <img src="img/Java.png" alt="Java" width="50">
 * <img src="img/Gradle.png" alt="Gradle" width="50">
 * <img src="img/Selenide.png" alt="Selenide" width="100">
