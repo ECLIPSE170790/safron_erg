@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://erg.kz/ru"><img src="https://erg.kz/dist/img/mobile-logo.svg" alt="ERG" width="200"></a>
+  <a href="https://erg.kz/ru"><img src="img/ERG.jpg" alt="ERG" width="200"></a>
 </h1>
 
 ## Расположение
