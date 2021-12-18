@@ -44,11 +44,22 @@ public class HomePage extends TestBase{
             switchTo().window(1);
         });
 
-        step("Checking word 'SmartERG'", () -> {
-            $(".jss13",0).shouldHave(text("SmartERG"));
+        step("Click Войти", () -> {
+            $(".jss22").click();
         });
 
-        //добавить вставку номера из credential.properties
+        step("Add number", () -> {
+            $("#mat-input-0").setValue("77010817156");
+        });
+
+        step("Click Получить код", () -> {
+            $(".mt-24").click();
+        });
+
+        step("Check text", () -> {
+            $("div.code-subtitle").shouldHave(text("Код отправлен на номер: +77010817156"));
+        });
+
     }
 
     @Test
