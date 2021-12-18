@@ -16,10 +16,12 @@ public class HomePage extends TestBase{
     public CredentialsConfig credentials =
             ConfigFactory.create(CredentialsConfig.class);
 
+    String url_erg = credentials.url_ERG();
+
     @Test
     void checkHomePage() {
         step("Open home page of ERG", () -> {
-            open("https://www.erg.kz/ru"); });
+            open(url_erg); });
 
         step("Checking word 'Главная'", () -> {
             $(".navigation").shouldHave(text("Главная"));
@@ -32,7 +34,7 @@ public class HomePage extends TestBase{
         String mobile_phone = credentials.mobile_phone();
 
         step("Open home page of ERG", () -> {
-            open("https://www.erg.kz/ru");
+            open(url_erg);
         });
 
         step("Click on cookie", () -> {
@@ -68,7 +70,7 @@ public class HomePage extends TestBase{
     @Test
     void searchBTS() {
         step("Open home page of ERG", () -> {
-            open("https://www.erg.kz/ru");
+            open(url_erg);
         });
 
         step("Click Search", () -> {
@@ -87,7 +89,7 @@ public class HomePage extends TestBase{
     @Test
     void searchEEC() {
         step("Open home page of ERG", () -> {
-            open("https://www.erg.kz/ru");
+            open(url_erg);
         });
 
         step("Click all company", () -> {
@@ -106,7 +108,7 @@ public class HomePage extends TestBase{
     @Test
     void searchPurchases() {
         step("Open home page of ERG", () -> {
-            open("https://www.erg.kz/ru");
+            open(url_erg);
         });
 
         step("Click on cookie", () -> {
