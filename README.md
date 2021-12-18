@@ -7,8 +7,8 @@
 </h1>
 
 ## Расположение
-* <a href="https://github.com/ECLIPSE170790/safron_erg/"><img src="C:\test\safron_erg\src\test\resources\img\GitHub.png" alt="GitHub" width="50"></a> - https://github.com/ECLIPSE170790/safron_erg
-* <a href="https://jenkins.autotests.cloud/job/08_eclipse170790_safron_erg/"><img src="C:\test\safron_erg\src\test\resources\img\Jenkins.jpg" alt="Jenkins" width="50"></a> - https://jenkins.autotests.cloud/job/08_eclipse170790_safron_erg
+* <a href="https://github.com/ECLIPSE170790/safron_erg/"><img src="img\GitHub.png" alt="GitHub" width="50"></a> - https://github.com/ECLIPSE170790/safron_erg
+* <a href="https://jenkins.autotests.cloud/job/08_eclipse170790_safron_erg/"><img src="img\Jenkins.jpg" alt="Jenkins" width="50"></a> - https://jenkins.autotests.cloud/job/08_eclipse170790_safron_erg
 
 ## Используемые инструменты
 
