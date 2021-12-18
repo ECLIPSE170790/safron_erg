@@ -17,4 +17,5 @@
 * <img src="img/Selenide.png" alt="Selenide" width="100">
 * <img src="img/JUnit.png" alt="JUnit" width="100">
 * <img src="img/Allure.png" alt="Allure" width="50">
+* <img src="img/Selenoid.png" alt="Selenoid" width="50">
 * <img src="img/Telegram.png" alt="Telegram" width="50">
