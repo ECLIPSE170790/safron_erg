@@ -12,11 +12,6 @@
 
 ## Используемые инструменты
 
-* <img src="img/IDEA.png" alt="Idea" width="50">
-* <img src="img/Java.png" alt="Java" width="50">
-* <img src="img/Gradle.png" alt="Gradle" width="50">
-* <img src="img/Selenide.svg" alt="Selenide" width="50">
-* <img src="img/JUnit.svg" alt="JUnit" width="50">
-* <img src="img/Allure.png" alt="Allure" width="50">
-* <img src="img/Selenoid.png" alt="Selenoid" width="50">
-* <img src="img/Telegram.svg" alt="Telegram" width="50">
+| IntelliJ IDEA | Java | Gradle | JUnit | Selenide | Selenoid | Allure Report | Telegram |
+|:----------:|:------:|:------:|:--------:|:--------:|:-------------:|:---------:|:--------:|
+| <img src="img/IDEA.png" width="50" height="50"> | <img src="img/Java.png" width="50" height="50"> | <img src="img/Gradle.png" width="50" height="50"> | <img src="img/JUnit.svg" width="50" height="50"> | <img src="img/Selenide.svg" width="50" height="50"> | <img src="img/Selenoid.png" width="50" height="50"> | <img src="img/Allure.png" width="50" height="50"> | <img src="img/Telegram.svg" width="50" height="50"> |
