@@ -1,7 +1,7 @@
 package tests;
 
+import static com.codeborne.selenide.Selectors.byText;
 import static io.qameta.allure.Allure.step;
-
 import config.CredentialsConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.Tag;
@@ -27,7 +27,10 @@ public class HomePage extends TestBase{
     }
 
     @Test
-    void gotToSmartERG() {
+    void goToSmartERG() {
+
+        String mobile_phone = credentials.mobile_phone();
+
         step("Open home page of ERG", () -> {
             open("https://www.erg.kz/ru");
         });
@@ -49,7 +52,7 @@ public class HomePage extends TestBase{
         });
 
         step("Add number", () -> {
-            $("#mat-input-0").setValue("77010817156");
+            $("#mat-input-0").setValue(mobile_phone);
         });
 
         step("Click Получить код", () -> {
@@ -78,6 +81,44 @@ public class HomePage extends TestBase{
 
         step("Checking results of search", () -> {
             $(".search__item", 3).shouldHave(text("BTS"));
+        });
+    }
+
+    @Test
+    void searchEEC() {
+        step("Open home page of ERG", () -> {
+            open("https://www.erg.kz/ru");
+        });
+
+        step("Click all company", () -> {
+            $("button.btn-light").click();
+        });
+
+        step("Click EEC", () -> {
+            $("#bs-select-1-21").click();
+        });
+
+        step("Checking results of search", () -> {
+            $("#Экибастуз").shouldHave(text("Экибастуз"));
+        });
+    }
+
+    @Test
+    void searchPurchases() {
+        step("Open home page of ERG", () -> {
+            open("https://www.erg.kz/ru");
+        });
+
+        step("Click on cookie", () -> {
+            $("#acceptCookies").click();
+        });
+
+        step("Click Purchases", () -> {
+            $(byText("Закупки")).click();
+        });
+
+        step("Checking Purchases portal", () -> {
+            $(".article__heading-title").shouldHave(text("Портал закупок"));
         });
     }
 }
