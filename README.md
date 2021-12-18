@@ -14,4 +14,4 @@
 
 | IntelliJ IDEA | Java | Gradle | JUnit | Selenide | Selenoid | Allure Report | Telegram |
 |:----------:|:------:|:------:|:--------:|:--------:|:-------------:|:---------:|:--------:|
-| <img src="img/IDEA.png" width="50" height="50"> | <img src="img/Java.png" width="50" height="50"> | <img src="img/Gradle.png" width="50" height="50"> | <img src="img/JUnit.svg" width="50" height="50"> | <img src="img/Selenide.svg" width="50" height="50"> | <img src="img/Selenoid.png" width="50" height="50"> | <img src="img/Allure.png" width="50" height="50"> | <img src="img/Telegram.svg" width="50" height="50"> |
+| <img src="img/IDEA.png" width="50" height="50"> | <img src="img/Java.png" width="40" height="50"> | <img src="img/Gradle.png" width="50" height="50"> | <img src="img/JUnit.svg" width="50" height="50"> | <img src="img/Selenide.svg" width="50" height="50"> | <img src="img/Selenoid.png" width="50" height="50"> | <img src="img/Allure.png" width="50" height="50"> | <img src="img/Telegram.svg" width="50" height="50"> |
