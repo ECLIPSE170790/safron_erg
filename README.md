@@ -12,10 +12,9 @@
 
 ## Используемые инструменты
 
-* <img src="C:\test\safron_erg\src\test\resources\img\Java.png" alt="Java" width="50">
-* <img src="C:\test\safron_erg\src\test\resources\img\Gradle.png" alt="Gradle" width="50">
-* <img src="C:\test\safron_erg\src\test\resources\img\Selenide.png" alt="Selenide" width="100">
-* <img src="C:\test\safron_erg\src\test\resources\img\JUnit.png" alt="JUnit" width="100">
-* <img src="C:\test\safron_erg\src\test\resources\img\Allure.png" alt="Allure" width="50">
-* <img src="C:\test\safron_erg\src\test\resources\img\Telegram.png" alt="Telegram" width="50">
-
+* <img src="https://github.com/ECLIPSE170790/safron_erg/tree/main/src/test/resources/img/Java.png" alt="Java" width="50">
+* <img src="https://github.com/ECLIPSE170790/safron_erg/tree/main/src/test/resources/img/Gradle.png" alt="Gradle" width="50">
+* <img src="https://github.com/ECLIPSE170790/safron_erg/tree/main/src/test/resources/img/Selenide.png" alt="Selenide" width="100">
+* <img src="https://github.com/ECLIPSE170790/safron_erg/tree/main/src/test/resources/img/JUnit.png" alt="JUnit" width="100">
+* <img src="https://github.com/ECLIPSE170790/safron_erg/tree/main/src/test/resources/img/Allure.png" alt="Allure" width="50">
+* <img src="https://github.com/ECLIPSE170790/safron_erg/tree/main/src/test/resources/img/Telegram.png" alt="Telegram" width="50">
