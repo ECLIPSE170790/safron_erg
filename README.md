@@ -22,11 +22,11 @@
 
 ## Отчётность можно посмотреть в "Allure Report"
 
-<img src="img/AllureResult.jpg" width="800" height="600">
+<img src="img/AllureResult.JPG" width="800" height="600">
 
 ## Результаты запуска автотестов приходят в "Телеграм"
 
-<img src="img/TelegramResult.jpg" width="500" height="300">
+<img src="img/TelegramResult.JPG" width="500" height="300">
 
 ## Список автотестов
 * Проверка наличия слова "Главная" на главной странице.
