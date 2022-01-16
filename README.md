@@ -22,7 +22,7 @@
 
 ## Отчётность можно посмотреть в "Allure Report"
 
-<img src="img/AllureResult.JPG" width="1600" height="900">
+<img src="img/AllureResult.JPG" width="1280" height="720">
 
 ## Результаты запуска автотестов приходят в "Телеграм"
 
